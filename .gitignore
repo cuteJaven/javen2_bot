@@ -1,0 +1,23 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../:\Users\10718\Desktop\GitHub\7940Project\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# Maven #
+target/
+
+# IDEA #
+.idea/
+*.iml
+out
+gen
+
+# Eclipse #
+.settings/
+.classpath
+.project
+__pycache__/Response.cpython-38.pyc
