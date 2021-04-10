@@ -1,3 +1,4 @@
-telegram~=0.0.1
-configparser~=5.0.2
-requests~=2.25.1
+telegram
+python-telegram-bot
+configparser
+requests

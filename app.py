@@ -34,7 +34,7 @@ def main():
     updater.idle()
 
 
-def help_command(update):
+def help_command(update, context):
     update.message.reply_text("send /start to get started!")
 
 
@@ -179,11 +179,11 @@ def cal_bmr(update, context):
         if flag == 4:
             if user_data_list[0] == 'male':
                 bmr = (13.75 * float(user_data_list[3])) + (5.003 * float(user_data_list[2])) - (
-                            6.755 * float(user_data_list[1])) + 66.47
+                        6.755 * float(user_data_list[1])) + 66.47
             elif user_data_list[0] == 'female':
                 # 女性
                 bmr = (9.563 * float(user_data_list[3])) + (1.85 * float(user_data_list[2])) - (
-                            4.676 * float(user_data_list[1])) + 655.1
+                        4.676 * float(user_data_list[1])) + 655.1
             else:
                 bmr = -1
 
